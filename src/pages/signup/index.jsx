@@ -14,6 +14,7 @@ const Signup = () => {
             navigate("/login");
         } catch (err) {
             console.log(err);
+            message.error("Fail to register!");
         }
     };
 
